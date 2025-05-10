@@ -1,5 +1,6 @@
 # Amazon Clone Project
 In this project, I built a functional Amazon clone using HTML and CSS, demonstrating my understanding of web development and responsive design. The primary focus was on creating a visually appealing, well-structured, and user-friendly interface that mirrors the essence of the original platform.
+
 📌 Key Learnings & Challenges
 - # Flexbox Mastery:
 - Flexbox became a crucial tool in structuring page layouts efficiently. I deepened my understanding of its properties like justify-content, align-items, and flex-wrap to ensure responsiveness.
