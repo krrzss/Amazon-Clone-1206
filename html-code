@@ -1,0 +1,178 @@
+/*Code for Amazon Clone HTML*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON CLONE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo border">
+                <div class="logo"></div>
+            </div>
+            <div class="navaddresss border">
+                <p style="color: #cccccc; font-size: 12px; margin-left: 15px;">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p style="color: white; font-size: 14px; margin-left: 3px;"><b>India</b></p>
+                </div>
+            </div>
+            <div class="navsearch ">
+                <select class="search">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="searchinput" type="text">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+           
+            <div class="nav-account border">
+                <p style="font-size: 12px;"><span>Hello, sign in</span></p>
+                <p style="font-size: 14px; font-weight: 700;"><span>Accounts & Lists</span></p>
+            </div>
+             <div class="nav-return border">
+                <p style="font-size: 12px; font-weight: 700;"><span>Returns</span></p>
+                <p style="font-size: 14px;"><span>& Orders</span></p>
+            </div>
+            <div class="navcart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+         </div>
+         <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+               <b>All</b>
+            </div>
+            <div class="options">
+                <p>Today's Deals</p>
+                <p>Registry</p>
+                <p>Fashion</p>
+                <p>Prime Video</p>
+                <p>Amazon Pharmacy</p>
+                <p>Books</p>
+                <p>Home & Kitchens</p>
+                <p>Gift Cards</p>
+                <p>Customer Service</p>
+                <p>Sell</p>
+                
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+         </div>
+    </header>
+    <div class="mainsection">
+        <div class="message">
+             You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#"> Click here to go to amazon.in</a>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;">  Pet Care & Well-beings</h2>
+                <div class="box-img" style="background-image: url('box2-3.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+        
+        <div class="box2 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;"> Women Fashions</h2>
+                <div class="box-img" style="background-image: url('box2-4.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+        <div class="box3 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;">Get Your Game On</h2>
+                <div class="box-img" style="background-image: url('gaming.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+        <div class="box4 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;"> Toys under $25</h2>
+                <div class="box-img" style="background-image: url('toys\ under\ 25.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+         <div class="box1 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;">Back-to-School</h2>
+                <div class="box-img" style="background-image: url('box3-1.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+        
+        <div class="box2 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;">Elevate your Electronics</h2>
+                <div class="box-img" style="background-image: url('box2-2.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+        <div class="box3 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;">Level Up your PC</h2>
+                <div class="box-img" style="background-image: url('box3-4.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+        <div class="box4 box">
+            <h2 style="margin-right: 20px; margin-left: 20px;">Modernised Workspace</h2>
+                <div class="box-img" style="background-image: url('box3-3.jpg'); "></div>
+                <p style="margin-top: 40px; margin-left: 20px;"><a href="#">Shop more</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel">
+            <a href="#" style="color: white; text-decoration: none;"">Back to top</a>
+        </div>
+        <div class="foot-panel2" style="line-height: 25px;">
+            <ul>
+                <p  style="font-weight: 600; line-height: 25px;">Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                 <p style="font-weight: 600; line-height: 25px;">Make Money with Us</p>
+                 <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+             <ul>
+                <p style="font-weight: 600; line-height: 25px;">Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+             <ul>
+                <p style="font-weight: 600; line-height: 25px;">Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+         </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+            <div class="foot-panel4">
+                <div class="pages">
+                    <a href="#" style="color: white; text-decoration: none;">Conditions of Use |</a>
+                    <a href="#" style="color: white; text-decoration: none;">Privacy Notice |</a>
+                    <a href="#" style="color: white; text-decoration: none;">Consumer Health Data Privacy Disclosure |</a>
+                    <a href="#" style="color: white; text-decoration: none;">Your Ads Privacy Choices |</a>
+                </div>
+            </div>
+            <div class="foot-panel4">
+                    <div class="copyright" style="color: white; font-size: 12px;">© 1996-2025, Amazon.com, Inc. or its affiliates</div>
+            </div>
+            
+    </footer>
+</body>
+</html>
